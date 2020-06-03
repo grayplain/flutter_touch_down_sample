@@ -1,16 +1,9 @@
-# touch_down_inside_sample
+## このリポジトリについて
+FlatButton などの Button Widget では、UIButton でいう Touch down のイベントが用意されていないみたい。
 
-touch_down_insideのサンプル
+### ポイントはこれだけ
+いろいろなタップイベントを実装する場合は、
+GestureDetector
+Widget を利用すればOK。
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://api.flutter.dev/flutter/widgets/GestureDetector-class.html
